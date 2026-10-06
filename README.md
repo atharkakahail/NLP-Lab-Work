@@ -12,6 +12,7 @@ This repository is organized into branches for each lab session. The `main` bran
 | [`main`](https://github.com/atharkakahail/NLP-Lab-Work/tree/main) | Base repository files, Lab Manual PDF, Assignments |
 | [`lab-1`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-1) | Lab 01 — Python Essentials for NLP |
 | [`lab-2`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-2) | Lab 02 — Data Acquisition |
+| [`lab-3`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-3) | Lab 03 — Regex, Tokenization & Sentence Segmentation |
 
 ---
 
@@ -39,14 +40,23 @@ Covers practical skills for extracting text from real-world formats:
 
 ---
 
+### [Lab 03 — Regex, Tokenization & Sentence Segmentation](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-3)
+Pull structured information out of raw, unstructured text and correctly break text into words and sentences:
+- **Activity 1:** Regex Extraction (Emails, Order numbers, Phone numbers)
+- **Activity 2:** spaCy Token Attributes (Currency amounts and numeric quantities)
+- **Activity 3:** NLTK vs spaCy Tokenization
+- **Activity 4:** NLTK vs spaCy Sentence Segmentation
+
+---
+
 ## How to Run
 
 1. Clone the repository and switch to the desired lab branch:
 	```powershell
 	git clone https://github.com/atharkakahail/NLP-Lab-Work.git
 	cd NLP-Lab-Work
-	git checkout lab-1  # Or lab-2
+	git checkout lab-1  # Or lab-2, lab-3
 	```
 2. Install [Jupyter Notebook](https://jupyter.org/install) or use VS Code with the Jupyter extension.
-3. Ensure you have the required dependencies for the respective lab (e.g., `requests`, `beautifulsoup4`, `PyPDF2`, `python-docx`).
+3. Ensure you have the required dependencies for the respective lab (e.g., `requests`, `beautifulsoup4`, `PyPDF2`, `python-docx`, `nltk`, `spacy`).
 4. Open the `.ipynb` file and run the cells.
