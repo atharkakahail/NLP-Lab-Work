@@ -13,6 +13,7 @@ This repository is organized into branches for each lab session. The `main` bran
 | [`lab-1`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-1) | Lab 01 — Python Essentials for NLP |
 | [`lab-2`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-2) | Lab 02 — Data Acquisition |
 | [`lab-3`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-3) | Lab 03 — Regex, Tokenization & Sentence Segmentation |
+| [`lab-4`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-4) | Lab 04 — Text Normalization, Cleaning & Minimum Edit Distance |
 
 ---
 
@@ -49,13 +50,22 @@ Pull structured information out of raw, unstructured text and correctly break te
 
 ---
 
+### [Lab 04 — Text Normalization, Cleaning & Minimum Edit Distance](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-4)
+Implement essential NLP text processing techniques for robust applications:
+- **Activity 1:** End-to-end dataset cleaning pipeline (lowercasing, stop words, lemmatization)
+- **Activity 2:** Comparative evaluation of Stemming (Porter) vs Lemmatization (spaCy)
+- **Activity 3:** Spelling-suggestion engine using Levenshtein Edit Distance
+- **Activity 4:** Autocorrect simulation for a live chat application
+
+---
+
 ## How to Run
 
 1. Clone the repository and switch to the desired lab branch:
 	```powershell
 	git clone https://github.com/atharkakahail/NLP-Lab-Work.git
 	cd NLP-Lab-Work
-	git checkout lab-1  # Or lab-2, lab-3
+	git checkout lab-1  # Or lab-2, lab-3, lab-4
 	```
 2. Install [Jupyter Notebook](https://jupyter.org/install) or use VS Code with the Jupyter extension.
 3. Ensure you have the required dependencies for the respective lab (e.g., `requests`, `beautifulsoup4`, `PyPDF2`, `python-docx`, `nltk`, `spacy`).
