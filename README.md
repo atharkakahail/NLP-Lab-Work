@@ -41,11 +41,11 @@ Covers practical skills for extracting text from real-world formats:
 ---
 
 ### [Lab 03 — Regex, Tokenization & Sentence Segmentation](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-3)
-Covers pulling structured information from raw text and text chunking:
-- **Activity 1:** Regex Extraction (Emails, Order Numbers, Phone Numbers)
-- **Activity 2:** Token Attributes Extraction (spaCy currency and num-like)
-- **Activity 3:** Tokenization Comparison (NLTK vs. spaCy)
-- **Activity 4:** Sentence Segmentation Comparison (NLTK vs. spaCy)
+Pull structured information out of raw, unstructured text and correctly break text into words and sentences:
+- **Activity 1:** Regex Extraction (Emails, Order numbers, Phone numbers)
+- **Activity 2:** spaCy Token Attributes (Currency amounts and numeric quantities)
+- **Activity 3:** NLTK vs spaCy Tokenization
+- **Activity 4:** NLTK vs spaCy Sentence Segmentation
 
 ---
 
