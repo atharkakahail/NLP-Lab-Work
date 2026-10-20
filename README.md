@@ -14,6 +14,7 @@ This repository is organized into branches for each lab session. The `main` bran
 | [`lab-2`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-2) | Lab 02 — Data Acquisition |
 | [`lab-3`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-3) | Lab 03 — Regex, Tokenization & Sentence Segmentation |
 | [`lab-4`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-4) | Lab 04 — Text Normalization, Cleaning & Minimum Edit Distance |
+| [`lab-5`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-5) | Lab 05 — N-gram Language Models & Smoothing |
 
 ---
 
@@ -59,14 +60,24 @@ Implement essential NLP text processing techniques for robust applications:
 
 ---
 
+### [Lab 05 — N-gram Language Models & Smoothing](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-5)
+Build probabilistic n-gram language models with NLTK, evaluate sentence perplexity, and resolve zero-probability failure modes using smoothing:
+- **Activity 1:** Bigram Smoothing Comparison (Laplace vs Add-$k$ / Lidstone) with numerical perplexity justification
+- **Activity 2:** Next-Word Predictor for a review-writing assistant ranking candidate words (`"expectations"`, `"budget"`, `"screen"`)
+- **Activity 3:** Model Order Generalization Comparison (Bigram vs Trigram) on unseen held-out text
+- **Activity 4:** Out-of-Vocabulary (OOV) impact analysis comparing Unsmoothed MLE vs Smoothed model perplexity and probability
+
+---
+
 ## How to Run
 
 1. Clone the repository and switch to the desired lab branch:
 	```powershell
 	git clone https://github.com/atharkakahail/NLP-Lab-Work.git
 	cd NLP-Lab-Work
-	git checkout lab-1  # Or lab-2, lab-3, lab-4
+	git checkout lab-1  # Or lab-2, lab-3, lab-4, lab-5
 	```
 2. Install [Jupyter Notebook](https://jupyter.org/install) or use VS Code with the Jupyter extension.
-3. Ensure you have the required dependencies for the respective lab (e.g., `requests`, `beautifulsoup4`, `PyPDF2`, `python-docx`, `nltk`, `spacy`).
+3. Ensure you have the required dependencies for the respective lab (e.g., `requests`, `beautifulsoup4`, `PyPDF2`, `python-docx`, `nltk`, `spacy`, `pandas`).
 4. Open the `.ipynb` file and run the cells.
+
