@@ -15,6 +15,7 @@ This repository is organized into branches for each lab session. The `main` bran
 | [`lab-3`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-3) | Lab 03 — Regex, Tokenization & Sentence Segmentation |
 | [`lab-4`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-4) | Lab 04 — Text Normalization, Cleaning & Minimum Edit Distance |
 | [`lab-5`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-5) | Lab 05 — N-gram Language Models & Smoothing |
+| [`lab-6`](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-6) | Lab 06 — Text Classification: Naive Bayes & Logistic Regression |
 
 ---
 
@@ -69,15 +70,27 @@ Build probabilistic n-gram language models with NLTK, evaluate sentence perplexi
 
 ---
 
+### [Lab 06 — Text Classification: Naive Bayes & Logistic Regression](https://github.com/atharkakahail/NLP-Lab-Work/tree/lab-6)
+Build end-to-end sentiment classification pipelines on 50,000 IMDB movie reviews using Bag-of-Words, TF-IDF, Naive Bayes, and Logistic Regression:
+- **Activity 1:** Bag-of-Words (BoW) feature extraction using scikit-learn's `CountVectorizer`, vocabulary analysis (101,895 unique terms), and document-term matrix sparsity calculation (99.87% sparse)
+- **Activity 2:** TF-IDF representation vs. raw count analysis, explaining mathematical suppression of frequent stop words (IDF downweighting + L2 normalization)
+- **Activity 3:** Leakage-free train/test splitting (80/20) with vectorizers fitted strictly on training text
+- **Activity 4:** Comprehensive model evaluation (Accuracy, Precision, Recall, F1-Score, Confusion Matrices) comparing Multinomial Naive Bayes (86.36% accuracy, 0.8618 F1) against Logistic Regression (89.54% accuracy, 0.8975 F1)
+- **Activity 5:** Production `Pipeline` deployment (`TfidfVectorizer` + `LogisticRegression`) and inference on unseen test reviews (`new_reviews.txt`)
+- **Bonus Activity (Stage v):** Class imbalance simulation (95:5 ratio) demonstrating failure of raw accuracy and how `class_weight='balanced'` recovers minority class recall from 9.16% to 65.27%
+
+---
+
 ## How to Run
 
 1. Clone the repository and switch to the desired lab branch:
 	```powershell
 	git clone https://github.com/atharkakahail/NLP-Lab-Work.git
 	cd NLP-Lab-Work
-	git checkout lab-1  # Or lab-2, lab-3, lab-4, lab-5
+	git checkout lab-1  # Or lab-2, lab-3, lab-4, lab-5, lab-6
 	```
 2. Install [Jupyter Notebook](https://jupyter.org/install) or use VS Code with the Jupyter extension.
-3. Ensure you have the required dependencies for the respective lab (e.g., `requests`, `beautifulsoup4`, `PyPDF2`, `python-docx`, `nltk`, `spacy`, `pandas`).
+3. Ensure you have the required dependencies for the respective lab (e.g., `requests`, `beautifulsoup4`, `PyPDF2`, `python-docx`, `nltk`, `spacy`, `pandas`, `scikit-learn`, `matplotlib`).
 4. Open the `.ipynb` file and run the cells.
+
 
